@@ -26,5 +26,5 @@ for i in range((len(list1)/1246)*2):
 img = Image.new('1', (1246,len(content)/(1246))) #save as 32 bit
 img.putdata(c)
 img = img.rotate(90, expand=True)
-img.save('digipan_xray.png')
 img.show()
+img.save('digipan_xray.png')
